@@ -1,0 +1,23 @@
+Dec 27 00:10:47.622 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 27 00:10:47.622 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53999.
+Dec 27 00:10:47.642 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 27 00:10:47.643 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/Mini_Project_v3/project-files/dynamips 
+Dec 27 00:10:47.643 GENERAL: working_dir=/Users/Daniela/Desktop/Mini_Project_v3/project-files/dynamips
+Dec 27 00:10:47.644 HYPERVISOR: exec_cmd: ethsw create SW4 
+Dec 27 00:11:02.174 HYPERVISOR: exec_cmd: ethsw rename SW4 EngeneeringVLAN 
+Dec 27 00:14:05.384 HYPERVISOR: exec_cmd: nio create_udp udp-37fa5bf8-4549-4c96-8c95-63485768d8ea 10085 127.0.0.1 10084 
+Dec 27 00:14:05.386 HYPERVISOR: exec_cmd: ethsw add_nio EngeneeringVLAN udp-37fa5bf8-4549-4c96-8c95-63485768d8ea 
+Dec 27 00:14:05.387 HYPERVISOR: exec_cmd: ethsw set_access_port EngeneeringVLAN udp-37fa5bf8-4549-4c96-8c95-63485768d8ea 1 
+Dec 27 00:14:34.692 HYPERVISOR: exec_cmd: nio create_udp udp-dd91f92a-e57e-4345-8775-abf24f7967e6 10095 127.0.0.1 10094 
+Dec 27 00:14:34.694 HYPERVISOR: exec_cmd: ethsw add_nio EngeneeringVLAN udp-dd91f92a-e57e-4345-8775-abf24f7967e6 
+Dec 27 00:14:34.704 HYPERVISOR: exec_cmd: ethsw set_access_port EngeneeringVLAN udp-dd91f92a-e57e-4345-8775-abf24f7967e6 1 
+Dec 27 00:21:23.381 HYPERVISOR: exec_cmd: nio create_udp udp-49401f9a-2695-46c7-a415-1ca6b0d30aea 10113 127.0.0.1 10112 
+Dec 27 00:21:23.383 HYPERVISOR: exec_cmd: ethsw add_nio EngeneeringVLAN udp-49401f9a-2695-46c7-a415-1ca6b0d30aea 
+Dec 27 00:21:23.403 HYPERVISOR: exec_cmd: ethsw set_access_port EngeneeringVLAN udp-49401f9a-2695-46c7-a415-1ca6b0d30aea 1 
+Dec 27 00:21:26.108 HYPERVISOR: exec_cmd: nio create_udp udp-e4707426-9d60-4961-b348-0aece13e2a52 10115 127.0.0.1 10114 
+Dec 27 00:21:26.109 HYPERVISOR: exec_cmd: ethsw add_nio EngeneeringVLAN udp-e4707426-9d60-4961-b348-0aece13e2a52 
+Dec 27 00:21:26.117 HYPERVISOR: exec_cmd: ethsw set_access_port EngeneeringVLAN udp-e4707426-9d60-4961-b348-0aece13e2a52 1 
+Dec 27 00:22:01.750 HYPERVISOR: exec_cmd: ethsw delete EngeneeringVLAN 
+Dec 27 00:22:01.827 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 27 00:22:01.978 HYPERVISOR: Stopped.
+Dec 27 00:22:01.978 GENERAL: reset done.

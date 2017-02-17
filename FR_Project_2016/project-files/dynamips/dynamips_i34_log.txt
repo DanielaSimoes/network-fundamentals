@@ -1,0 +1,23 @@
+Dec 27 00:10:50.654 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 27 00:10:50.654 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54003.
+Dec 27 00:10:50.676 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 27 00:10:50.677 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/Mini_Project_v3/project-files/dynamips 
+Dec 27 00:10:50.677 GENERAL: working_dir=/Users/Daniela/Desktop/Mini_Project_v3/project-files/dynamips
+Dec 27 00:10:50.678 HYPERVISOR: exec_cmd: ethsw create SW6 
+Dec 27 00:11:15.907 HYPERVISOR: exec_cmd: ethsw rename SW6 ResearchVLAN 
+Dec 27 00:14:15.807 HYPERVISOR: exec_cmd: nio create_udp udp-637e30c9-e022-4883-9531-70a532131149 10089 127.0.0.1 10088 
+Dec 27 00:14:15.810 HYPERVISOR: exec_cmd: ethsw add_nio ResearchVLAN udp-637e30c9-e022-4883-9531-70a532131149 
+Dec 27 00:14:15.821 HYPERVISOR: exec_cmd: ethsw set_access_port ResearchVLAN udp-637e30c9-e022-4883-9531-70a532131149 1 
+Dec 27 00:14:43.199 HYPERVISOR: exec_cmd: nio create_udp udp-278b937e-9891-43cf-b54c-bbd31d2f7a19 10099 127.0.0.1 10098 
+Dec 27 00:14:43.201 HYPERVISOR: exec_cmd: ethsw add_nio ResearchVLAN udp-278b937e-9891-43cf-b54c-bbd31d2f7a19 
+Dec 27 00:14:43.221 HYPERVISOR: exec_cmd: ethsw set_access_port ResearchVLAN udp-278b937e-9891-43cf-b54c-bbd31d2f7a19 1 
+Dec 27 00:21:35.072 HYPERVISOR: exec_cmd: nio create_udp udp-16938179-6017-4ce4-990c-2cce93de32a1 10121 127.0.0.1 10120 
+Dec 27 00:21:35.074 HYPERVISOR: exec_cmd: ethsw add_nio ResearchVLAN udp-16938179-6017-4ce4-990c-2cce93de32a1 
+Dec 27 00:21:35.084 HYPERVISOR: exec_cmd: ethsw set_access_port ResearchVLAN udp-16938179-6017-4ce4-990c-2cce93de32a1 1 
+Dec 27 00:21:37.675 HYPERVISOR: exec_cmd: nio create_udp udp-624450d8-f067-424c-8fb4-8130e1a0411a 10123 127.0.0.1 10122 
+Dec 27 00:21:37.677 HYPERVISOR: exec_cmd: ethsw add_nio ResearchVLAN udp-624450d8-f067-424c-8fb4-8130e1a0411a 
+Dec 27 00:21:37.687 HYPERVISOR: exec_cmd: ethsw set_access_port ResearchVLAN udp-624450d8-f067-424c-8fb4-8130e1a0411a 1 
+Dec 27 00:22:01.748 HYPERVISOR: exec_cmd: ethsw delete ResearchVLAN 
+Dec 27 00:22:01.840 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 27 00:22:02.048 HYPERVISOR: Stopped.
+Dec 27 00:22:02.048 GENERAL: reset done.

@@ -1,0 +1,22 @@
+Jan 02 15:13:04.711 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 02 15:13:04.712 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53265.
+Jan 02 15:13:05.019 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 02 15:13:05.101 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips 
+Jan 02 15:13:05.102 GENERAL: working_dir=C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips
+Jan 02 15:13:05.181 HYPERVISOR: exec_cmd: ethsw create VoIPVLAN 
+Jan 02 15:13:09.083 HYPERVISOR: exec_cmd: nio create_udp udp-155e5f50-6843-4703-b53c-1359646ea5da 10047 127.0.0.1 10046 
+Jan 02 15:13:09.137 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-155e5f50-6843-4703-b53c-1359646ea5da 
+Jan 02 15:13:09.196 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-155e5f50-6843-4703-b53c-1359646ea5da 4 
+Jan 02 15:13:09.250 HYPERVISOR: exec_cmd: nio create_udp udp-62591662-9d42-437e-9904-db93996ebcff 10049 127.0.0.1 10048 
+Jan 02 15:13:09.301 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-62591662-9d42-437e-9904-db93996ebcff 
+Jan 02 15:13:09.354 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-62591662-9d42-437e-9904-db93996ebcff 4 
+Jan 02 15:13:09.416 HYPERVISOR: exec_cmd: nio create_udp udp-63710816-e716-448c-82ed-1f88b5b1e72f 10051 127.0.0.1 10050 
+Jan 02 15:13:09.474 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-63710816-e716-448c-82ed-1f88b5b1e72f 
+Jan 02 15:13:09.527 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-63710816-e716-448c-82ed-1f88b5b1e72f 4 
+Jan 02 15:13:09.559 HYPERVISOR: exec_cmd: nio create_udp udp-d52dab6f-d784-47d5-9c17-7681aedb6f85 10053 127.0.0.1 10052 
+Jan 02 15:13:09.609 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-d52dab6f-d784-47d5-9c17-7681aedb6f85 
+Jan 02 15:13:09.667 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-d52dab6f-d784-47d5-9c17-7681aedb6f85 4 
+Jan 02 15:13:23.695 HYPERVISOR: exec_cmd: ethsw delete VoIPVLAN 
+Jan 02 15:13:23.846 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 02 15:13:24.094 HYPERVISOR: Stopped.
+Jan 02 15:13:24.094 GENERAL: reset done.

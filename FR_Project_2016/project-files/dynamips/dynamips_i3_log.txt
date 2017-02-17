@@ -1,0 +1,33 @@
+Jan 02 15:13:02.820 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 02 15:13:02.821 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53240.
+Jan 02 15:13:03.054 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 02 15:13:03.083 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips 
+Jan 02 15:13:03.632 GENERAL: working_dir=C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips
+Jan 02 15:13:03.668 HYPERVISOR: exec_cmd: vm create Router2 3 c3745 
+Jan 02 15:13:03.670 VM: VM Router2 created.
+Jan 02 15:13:03.719 HYPERVISOR: exec_cmd: vm set_con_tcp_port Router2 5020 
+Jan 02 15:13:03.751 HYPERVISOR: exec_cmd: c3745 get_mac_addr Router2 
+Jan 02 15:13:03.791 HYPERVISOR: exec_cmd: vm set_disk0 Router2 0 
+Jan 02 15:13:03.825 HYPERVISOR: exec_cmd: vm set_exec_area Router2 64 
+Jan 02 15:13:03.857 HYPERVISOR: exec_cmd: vm set_ram Router2 256 
+Jan 02 15:13:03.893 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 02 15:13:03.931 HYPERVISOR: exec_cmd: vm slot_add_binding Router2 1 0 NM-4T 
+Jan 02 15:13:03.976 HYPERVISOR: exec_cmd: vm set_ios Router2 C:/Users/Diogo Ferreira/GNS3/images/IOS/c3745-advipservicesk9-m.124-4.T1.bin 
+Jan 02 15:13:04.030 HYPERVISOR: exec_cmd: vm set_nvram Router2 256 
+Jan 02 15:13:04.096 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 02 15:13:04.139 HYPERVISOR: exec_cmd: vm set_idle_pc Router2 0x60b23d04 
+Jan 02 15:13:04.206 HYPERVISOR: exec_cmd: c3745 set_mac_addr Router2 c403.57d9.0000 
+Jan 02 15:13:04.259 HYPERVISOR: exec_cmd: vm set_config Router2 configs/i3_startup-config.cfg 
+Jan 02 15:13:07.029 HYPERVISOR: exec_cmd: nio create_udp udp-78ce90a0-46e0-4441-a56f-ea8e02c86395 10006 127.0.0.1 10007 
+Jan 02 15:13:07.077 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router2 0 0 udp-78ce90a0-46e0-4441-a56f-ea8e02c86395 
+Jan 02 15:13:07.115 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 02 15:13:10.462 HYPERVISOR: exec_cmd: nio create_udp udp-6cac5fc6-ea30-4d48-90ce-44186231c6a9 10081 127.0.0.1 10080 
+Jan 02 15:13:10.499 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router2 0 1 udp-6cac5fc6-ea30-4d48-90ce-44186231c6a9 
+Jan 02 15:13:10.534 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 02 15:13:24.423 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 02 15:13:24.481 HYPERVISOR: exec_cmd: vm extract_config Router2 
+Jan 02 15:13:24.519 HYPERVISOR: exec_cmd: vm delete Router2 
+Jan 02 15:13:24.519 VM: VM Router2 destroyed.
+Jan 02 15:13:24.565 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 02 15:13:24.701 HYPERVISOR: Stopped.
+Jan 02 15:13:24.701 GENERAL: reset done.

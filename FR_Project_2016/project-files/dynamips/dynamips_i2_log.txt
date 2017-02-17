@@ -1,0 +1,42 @@
+Jan 02 15:13:02.749 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 02 15:13:02.750 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53239.
+Jan 02 15:13:03.028 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 02 15:13:03.060 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips 
+Jan 02 15:13:03.494 GENERAL: working_dir=C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips
+Jan 02 15:13:03.504 HYPERVISOR: exec_cmd: vm create SWA 6 c3745 
+Jan 02 15:13:03.611 VM: VM SWA created.
+Jan 02 15:13:03.645 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWA 5021 
+Jan 02 15:13:03.672 HYPERVISOR: exec_cmd: c3745 get_mac_addr SWA 
+Jan 02 15:13:03.728 HYPERVISOR: exec_cmd: vm set_disk0 SWA 1 
+Jan 02 15:13:03.760 HYPERVISOR: exec_cmd: vm set_exec_area SWA 64 
+Jan 02 15:13:03.799 HYPERVISOR: exec_cmd: vm set_ram SWA 256 
+Jan 02 15:13:03.833 HYPERVISOR: exec_cmd: vm get_status SWA 
+Jan 02 15:13:03.866 HYPERVISOR: exec_cmd: vm slot_add_binding SWA 1 0 NM-16ESW 
+Jan 02 15:13:03.902 HYPERVISOR: exec_cmd: vm set_ios SWA C:/Users/Diogo Ferreira/GNS3/images/IOS/c3745-advipservicesk9-mz.124-15.T6.image 
+Jan 02 15:13:03.944 HYPERVISOR: exec_cmd: vm set_nvram SWA 256 
+Jan 02 15:13:03.987 HYPERVISOR: exec_cmd: vm get_status SWA 
+Jan 02 15:13:04.044 HYPERVISOR: exec_cmd: vm set_idle_pc SWA 0x6024b540 
+Jan 02 15:13:04.106 HYPERVISOR: exec_cmd: c3745 set_mac_addr SWA c406.57ee.0000 
+Jan 02 15:13:04.151 HYPERVISOR: exec_cmd: vm set_config SWA configs/i6_startup-config.cfg 
+Jan 02 15:13:06.795 HYPERVISOR: exec_cmd: nio create_udp udp-233c36e1-7f09-4613-b104-34b158d7196c 10000 127.0.0.1 10001 
+Jan 02 15:13:06.852 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWA 1 4 udp-233c36e1-7f09-4613-b104-34b158d7196c 
+Jan 02 15:13:06.881 HYPERVISOR: exec_cmd: vm get_status SWA 
+Jan 02 15:13:06.957 HYPERVISOR: exec_cmd: nio create_udp udp-83594ce2-d660-4846-a014-ce24086bc619 10004 127.0.0.1 10005 
+Jan 02 15:13:07.001 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWA 1 1 udp-83594ce2-d660-4846-a014-ce24086bc619 
+Jan 02 15:13:07.066 HYPERVISOR: exec_cmd: vm get_status SWA 
+Jan 02 15:13:07.136 HYPERVISOR: exec_cmd: nio create_udp udp-af877e87-9429-4fc1-a824-cb7c34abbb38 10007 127.0.0.1 10006 
+Jan 02 15:13:07.196 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWA 1 0 udp-af877e87-9429-4fc1-a824-cb7c34abbb38 
+Jan 02 15:13:07.259 HYPERVISOR: exec_cmd: vm get_status SWA 
+Jan 02 15:13:07.307 HYPERVISOR: exec_cmd: nio create_udp udp-352283d5-89bc-4f90-b57a-4ed8f164ef94 10012 127.0.0.1 10013 
+Jan 02 15:13:07.365 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWA 1 2 udp-352283d5-89bc-4f90-b57a-4ed8f164ef94 
+Jan 02 15:13:07.426 HYPERVISOR: exec_cmd: vm get_status SWA 
+Jan 02 15:13:07.623 HYPERVISOR: exec_cmd: nio create_udp udp-4df5a00a-d62e-46d7-b647-f93adbbbf043 10016 127.0.0.1 10017 
+Jan 02 15:13:07.664 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWA 1 3 udp-4df5a00a-d62e-46d7-b647-f93adbbbf043 
+Jan 02 15:13:07.693 HYPERVISOR: exec_cmd: vm get_status SWA 
+Jan 02 15:13:24.452 HYPERVISOR: exec_cmd: vm get_status SWA 
+Jan 02 15:13:24.499 HYPERVISOR: exec_cmd: vm extract_config SWA 
+Jan 02 15:13:24.558 HYPERVISOR: exec_cmd: vm delete SWA 
+Jan 02 15:13:24.558 VM: VM SWA destroyed.
+Jan 02 15:13:24.604 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 02 15:13:24.644 HYPERVISOR: Stopped.
+Jan 02 15:13:24.644 GENERAL: reset done.

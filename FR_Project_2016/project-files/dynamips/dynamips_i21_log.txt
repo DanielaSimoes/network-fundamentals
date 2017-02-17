@@ -1,0 +1,22 @@
+Jan 01 22:25:27.602 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Jan 01 22:25:27.602 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58069.
+Jan 01 22:25:27.655 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 01 22:25:27.660 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/Mini_Project_FINAL/project-files/dynamips 
+Jan 01 22:25:27.660 GENERAL: working_dir=/Users/Daniela/Desktop/Mini_Project_FINAL/project-files/dynamips
+Jan 01 22:25:27.668 HYPERVISOR: exec_cmd: ethsw create VoIPVLAN 
+Jan 01 22:25:28.687 HYPERVISOR: exec_cmd: nio create_udp udp-20dc6fd3-b2e7-45c9-92a7-797ac55ecd82 10033 127.0.0.1 10032 
+Jan 01 22:25:28.692 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-20dc6fd3-b2e7-45c9-92a7-797ac55ecd82 
+Jan 01 22:25:28.712 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-20dc6fd3-b2e7-45c9-92a7-797ac55ecd82 4 
+Jan 01 22:25:28.725 HYPERVISOR: exec_cmd: nio create_udp udp-85d13aac-c9f8-436f-82f8-a895752e8428 10035 127.0.0.1 10034 
+Jan 01 22:25:28.756 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-85d13aac-c9f8-436f-82f8-a895752e8428 
+Jan 01 22:25:28.783 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-85d13aac-c9f8-436f-82f8-a895752e8428 4 
+Jan 01 22:25:28.811 HYPERVISOR: exec_cmd: nio create_udp udp-dd251f5e-a194-4639-be09-1b6ed53b4126 10043 127.0.0.1 10042 
+Jan 01 22:25:28.827 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-dd251f5e-a194-4639-be09-1b6ed53b4126 
+Jan 01 22:25:28.851 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-dd251f5e-a194-4639-be09-1b6ed53b4126 4 
+Jan 01 22:25:28.979 HYPERVISOR: exec_cmd: nio create_udp udp-e89c9374-2825-4457-8e85-d8fad326a07f 10057 127.0.0.1 10056 
+Jan 01 22:25:28.985 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-e89c9374-2825-4457-8e85-d8fad326a07f 
+Jan 01 22:25:29.028 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-e89c9374-2825-4457-8e85-d8fad326a07f 4 
+Jan 02 00:53:29.777 HYPERVISOR: exec_cmd: ethsw delete VoIPVLAN 
+Jan 02 00:53:29.852 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 02 00:53:30.307 HYPERVISOR: Stopped.
+Jan 02 00:53:30.307 GENERAL: reset done.

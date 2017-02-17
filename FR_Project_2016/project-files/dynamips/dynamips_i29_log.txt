@@ -1,0 +1,20 @@
+Dec 27 00:10:10.286 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 27 00:10:10.286 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53991.
+Dec 27 00:10:10.303 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 27 00:10:10.304 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/Mini_Project_v3/project-files/dynamips 
+Dec 27 00:10:10.304 GENERAL: working_dir=/Users/Daniela/Desktop/Mini_Project_v3/project-files/dynamips
+Dec 27 00:10:10.305 HYPERVISOR: exec_cmd: ethsw create SW1 
+Dec 27 00:10:20.356 HYPERVISOR: exec_cmd: ethsw rename SW1 InternalDatacenter 
+Dec 27 00:12:25.724 HYPERVISOR: exec_cmd: nio create_udp udp-0d2c5b02-0f60-424c-9cdb-973738b75407 10071 127.0.0.1 10070 
+Dec 27 00:12:25.726 HYPERVISOR: exec_cmd: ethsw add_nio InternalDatacenter udp-0d2c5b02-0f60-424c-9cdb-973738b75407 
+Dec 27 00:12:25.736 HYPERVISOR: exec_cmd: ethsw set_access_port InternalDatacenter udp-0d2c5b02-0f60-424c-9cdb-973738b75407 1 
+Dec 27 00:12:33.646 HYPERVISOR: exec_cmd: nio create_udp udp-14a1cc73-0be7-4570-9954-d54c1819c2c4 10072 127.0.0.1 10073 
+Dec 27 00:12:33.653 HYPERVISOR: exec_cmd: ethsw add_nio InternalDatacenter udp-14a1cc73-0be7-4570-9954-d54c1819c2c4 
+Dec 27 00:12:33.661 HYPERVISOR: exec_cmd: ethsw set_access_port InternalDatacenter udp-14a1cc73-0be7-4570-9954-d54c1819c2c4 1 
+Dec 27 00:19:30.632 HYPERVISOR: exec_cmd: nio create_udp udp-875ac38e-3af4-4218-9590-79ed38494e9e 10110 127.0.0.1 10111 
+Dec 27 00:19:30.646 HYPERVISOR: exec_cmd: ethsw add_nio InternalDatacenter udp-875ac38e-3af4-4218-9590-79ed38494e9e 
+Dec 27 00:19:30.660 HYPERVISOR: exec_cmd: ethsw set_access_port InternalDatacenter udp-875ac38e-3af4-4218-9590-79ed38494e9e 1 
+Dec 27 00:22:01.749 HYPERVISOR: exec_cmd: ethsw delete InternalDatacenter 
+Dec 27 00:22:01.802 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 27 00:22:01.923 HYPERVISOR: Stopped.
+Dec 27 00:22:01.925 GENERAL: reset done.

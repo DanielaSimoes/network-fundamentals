@@ -1,0 +1,23 @@
+Dec 27 00:10:53.805 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 27 00:10:53.806 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54007.
+Dec 27 00:10:53.827 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 27 00:10:53.828 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/Mini_Project_v3/project-files/dynamips 
+Dec 27 00:10:53.828 GENERAL: working_dir=/Users/Daniela/Desktop/Mini_Project_v3/project-files/dynamips
+Dec 27 00:10:53.829 HYPERVISOR: exec_cmd: ethsw create SW8 
+Dec 27 00:11:32.576 HYPERVISOR: exec_cmd: ethsw rename SW8 VideoConfVLAN 
+Dec 27 00:14:23.745 HYPERVISOR: exec_cmd: nio create_udp udp-32cfba68-6944-4dfc-a75e-a2670a22ba23 10093 127.0.0.1 10092 
+Dec 27 00:14:23.750 HYPERVISOR: exec_cmd: ethsw add_nio VideoConfVLAN udp-32cfba68-6944-4dfc-a75e-a2670a22ba23 
+Dec 27 00:14:23.771 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConfVLAN udp-32cfba68-6944-4dfc-a75e-a2670a22ba23 1 
+Dec 27 00:14:49.789 HYPERVISOR: exec_cmd: nio create_udp udp-dc558c9f-94ba-4386-9c1a-3c3051f85ce6 10103 127.0.0.1 10102 
+Dec 27 00:14:49.791 HYPERVISOR: exec_cmd: ethsw add_nio VideoConfVLAN udp-dc558c9f-94ba-4386-9c1a-3c3051f85ce6 
+Dec 27 00:14:49.802 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConfVLAN udp-dc558c9f-94ba-4386-9c1a-3c3051f85ce6 1 
+Dec 27 00:21:48.535 HYPERVISOR: exec_cmd: nio create_udp udp-630bbc95-221c-4e4b-94e3-986d96db8ae3 10129 127.0.0.1 10128 
+Dec 27 00:21:48.537 HYPERVISOR: exec_cmd: ethsw add_nio VideoConfVLAN udp-630bbc95-221c-4e4b-94e3-986d96db8ae3 
+Dec 27 00:21:48.541 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConfVLAN udp-630bbc95-221c-4e4b-94e3-986d96db8ae3 1 
+Dec 27 00:21:51.671 HYPERVISOR: exec_cmd: nio create_udp udp-d88f3329-89fd-4035-995b-7c39b8e2da66 10131 127.0.0.1 10130 
+Dec 27 00:21:51.672 HYPERVISOR: exec_cmd: ethsw add_nio VideoConfVLAN udp-d88f3329-89fd-4035-995b-7c39b8e2da66 
+Dec 27 00:21:51.686 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConfVLAN udp-d88f3329-89fd-4035-995b-7c39b8e2da66 1 
+Dec 27 00:22:01.749 HYPERVISOR: exec_cmd: ethsw delete VideoConfVLAN 
+Dec 27 00:22:01.839 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 27 00:22:02.106 HYPERVISOR: Stopped.
+Dec 27 00:22:02.106 GENERAL: reset done.

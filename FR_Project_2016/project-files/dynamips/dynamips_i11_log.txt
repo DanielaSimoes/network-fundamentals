@@ -1,0 +1,28 @@
+Jan 02 15:13:04.512 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 02 15:13:04.513 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53260.
+Jan 02 15:13:04.697 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 02 15:13:04.746 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips 
+Jan 02 15:13:04.746 GENERAL: working_dir=C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips
+Jan 02 15:13:04.811 HYPERVISOR: exec_cmd: ethsw create ResearchVLAN 
+Jan 02 15:13:08.296 HYPERVISOR: exec_cmd: nio create_udp udp-a6222c18-428f-423d-81e6-71cad3a6f1c8 10029 127.0.0.1 10028 
+Jan 02 15:13:08.329 HYPERVISOR: exec_cmd: ethsw add_nio ResearchVLAN udp-a6222c18-428f-423d-81e6-71cad3a6f1c8 
+Jan 02 15:13:08.391 HYPERVISOR: exec_cmd: ethsw set_access_port ResearchVLAN udp-a6222c18-428f-423d-81e6-71cad3a6f1c8 3 
+Jan 02 15:13:08.460 HYPERVISOR: exec_cmd: nio create_udp udp-ba90804c-1174-4b32-a987-88c92add001d 10031 127.0.0.1 10030 
+Jan 02 15:13:08.510 HYPERVISOR: exec_cmd: ethsw add_nio ResearchVLAN udp-ba90804c-1174-4b32-a987-88c92add001d 
+Jan 02 15:13:08.570 HYPERVISOR: exec_cmd: ethsw set_access_port ResearchVLAN udp-ba90804c-1174-4b32-a987-88c92add001d 3 
+Jan 02 15:13:08.633 HYPERVISOR: exec_cmd: nio create_udp udp-cd65e4c6-be21-4a74-84d5-e9836dea50d0 10033 127.0.0.1 10032 
+Jan 02 15:13:08.691 HYPERVISOR: exec_cmd: ethsw add_nio ResearchVLAN udp-cd65e4c6-be21-4a74-84d5-e9836dea50d0 
+Jan 02 15:13:08.757 HYPERVISOR: exec_cmd: ethsw set_access_port ResearchVLAN udp-cd65e4c6-be21-4a74-84d5-e9836dea50d0 3 
+Jan 02 15:13:08.815 HYPERVISOR: exec_cmd: nio create_udp udp-75f1dea6-9e08-4e73-ac2b-1d50ca65821d 10037 127.0.0.1 10036 
+Jan 02 15:13:08.878 HYPERVISOR: exec_cmd: ethsw add_nio ResearchVLAN udp-75f1dea6-9e08-4e73-ac2b-1d50ca65821d 
+Jan 02 15:13:08.952 HYPERVISOR: exec_cmd: ethsw set_access_port ResearchVLAN udp-75f1dea6-9e08-4e73-ac2b-1d50ca65821d 3 
+Jan 02 15:13:09.974 HYPERVISOR: exec_cmd: nio create_udp udp-ba014876-0c81-4afc-ad23-fb8acbb05da6 10071 127.0.0.1 10070 
+Jan 02 15:13:10.020 HYPERVISOR: exec_cmd: ethsw add_nio ResearchVLAN udp-ba014876-0c81-4afc-ad23-fb8acbb05da6 
+Jan 02 15:13:10.070 HYPERVISOR: exec_cmd: ethsw set_access_port ResearchVLAN udp-ba014876-0c81-4afc-ad23-fb8acbb05da6 3 
+Jan 02 15:13:10.110 HYPERVISOR: exec_cmd: nio create_udp udp-22da17b8-8744-4d54-9590-7f2945ae8bb2 10073 127.0.0.1 10072 
+Jan 02 15:13:10.156 HYPERVISOR: exec_cmd: ethsw add_nio ResearchVLAN udp-22da17b8-8744-4d54-9590-7f2945ae8bb2 
+Jan 02 15:13:10.214 HYPERVISOR: exec_cmd: ethsw set_access_port ResearchVLAN udp-22da17b8-8744-4d54-9590-7f2945ae8bb2 3 
+Jan 02 15:13:23.711 HYPERVISOR: exec_cmd: ethsw delete ResearchVLAN 
+Jan 02 15:13:23.907 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 02 15:13:24.342 HYPERVISOR: Stopped.
+Jan 02 15:13:24.342 GENERAL: reset done.

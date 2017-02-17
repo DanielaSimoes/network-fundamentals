@@ -1,0 +1,23 @@
+Dec 27 00:10:52.339 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 27 00:10:52.340 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54005.
+Dec 27 00:10:52.361 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 27 00:10:52.362 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/Mini_Project_v3/project-files/dynamips 
+Dec 27 00:10:52.362 GENERAL: working_dir=/Users/Daniela/Desktop/Mini_Project_v3/project-files/dynamips
+Dec 27 00:10:52.363 HYPERVISOR: exec_cmd: ethsw create SW7 
+Dec 27 00:11:27.289 HYPERVISOR: exec_cmd: ethsw rename SW7 VoIPVLAN 
+Dec 27 00:14:20.349 HYPERVISOR: exec_cmd: nio create_udp udp-0c5cc7cc-f05e-4626-b3ad-3ada79d5522e 10091 127.0.0.1 10090 
+Dec 27 00:14:20.351 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-0c5cc7cc-f05e-4626-b3ad-3ada79d5522e 
+Dec 27 00:14:20.359 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-0c5cc7cc-f05e-4626-b3ad-3ada79d5522e 1 
+Dec 27 00:14:46.353 HYPERVISOR: exec_cmd: nio create_udp udp-d5052391-a107-4e05-ba41-62a5ada89658 10101 127.0.0.1 10100 
+Dec 27 00:14:46.355 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-d5052391-a107-4e05-ba41-62a5ada89658 
+Dec 27 00:14:46.374 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-d5052391-a107-4e05-ba41-62a5ada89658 1 
+Dec 27 00:21:40.010 HYPERVISOR: exec_cmd: nio create_udp udp-4f1e0be9-bfb8-49cf-85fb-50d55487ea49 10125 127.0.0.1 10124 
+Dec 27 00:21:40.011 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-4f1e0be9-bfb8-49cf-85fb-50d55487ea49 
+Dec 27 00:21:40.035 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-4f1e0be9-bfb8-49cf-85fb-50d55487ea49 1 
+Dec 27 00:21:42.746 HYPERVISOR: exec_cmd: nio create_udp udp-252610aa-2a3d-42d4-b37c-99bfe06203a0 10127 127.0.0.1 10126 
+Dec 27 00:21:42.747 HYPERVISOR: exec_cmd: ethsw add_nio VoIPVLAN udp-252610aa-2a3d-42d4-b37c-99bfe06203a0 
+Dec 27 00:21:42.755 HYPERVISOR: exec_cmd: ethsw set_access_port VoIPVLAN udp-252610aa-2a3d-42d4-b37c-99bfe06203a0 1 
+Dec 27 00:22:01.751 HYPERVISOR: exec_cmd: ethsw delete VoIPVLAN 
+Dec 27 00:22:01.838 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 27 00:22:01.924 HYPERVISOR: Stopped.
+Dec 27 00:22:01.927 GENERAL: reset done.

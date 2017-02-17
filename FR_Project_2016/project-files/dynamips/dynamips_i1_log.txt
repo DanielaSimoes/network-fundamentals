@@ -1,0 +1,33 @@
+Jan 02 15:13:02.753 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 02 15:13:02.754 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53238.
+Jan 02 15:13:02.995 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 02 15:13:03.038 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips 
+Jan 02 15:13:03.483 GENERAL: working_dir=C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips
+Jan 02 15:13:03.488 HYPERVISOR: exec_cmd: vm create ISP 1 c3745 
+Jan 02 15:13:03.491 VM: VM ISP created.
+Jan 02 15:13:03.497 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5018 
+Jan 02 15:13:03.511 HYPERVISOR: exec_cmd: c3745 get_mac_addr ISP 
+Jan 02 15:13:03.518 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Jan 02 15:13:03.526 HYPERVISOR: exec_cmd: vm set_exec_area ISP 64 
+Jan 02 15:13:03.533 HYPERVISOR: exec_cmd: vm set_ram ISP 256 
+Jan 02 15:13:03.541 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 02 15:13:03.548 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 1 0 NM-4T 
+Jan 02 15:13:03.555 HYPERVISOR: exec_cmd: vm set_ios ISP C:/Users/Diogo Ferreira/GNS3/images/IOS/c3745-advipservicesk9-m.124-4.T1.bin 
+Jan 02 15:13:03.562 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+Jan 02 15:13:03.569 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 02 15:13:03.576 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x60b23d04 
+Jan 02 15:13:03.583 HYPERVISOR: exec_cmd: c3745 set_mac_addr ISP c401.57d7.0000 
+Jan 02 15:13:03.610 HYPERVISOR: exec_cmd: vm set_config ISP configs/i1_startup-config.cfg 
+Jan 02 15:13:06.829 HYPERVISOR: exec_cmd: nio create_udp udp-b42d4fd7-08fc-4dbd-ada3-acb185b51655 10003 127.0.0.1 10002 
+Jan 02 15:13:06.865 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-b42d4fd7-08fc-4dbd-ada3-acb185b51655 
+Jan 02 15:13:06.890 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 02 15:13:09.315 HYPERVISOR: exec_cmd: nio create_udp udp-d8e5aefc-a696-4934-9d1d-46aed04c701c 10054 127.0.0.1 10055 
+Jan 02 15:13:09.359 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 1 udp-d8e5aefc-a696-4934-9d1d-46aed04c701c 
+Jan 02 15:13:09.402 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 02 15:13:24.435 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 02 15:13:24.490 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Jan 02 15:13:24.528 HYPERVISOR: exec_cmd: vm delete ISP 
+Jan 02 15:13:24.528 VM: VM ISP destroyed.
+Jan 02 15:13:24.571 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 02 15:13:24.643 HYPERVISOR: Stopped.
+Jan 02 15:13:24.643 GENERAL: reset done.

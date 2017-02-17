@@ -1,0 +1,3254 @@
+{
+    "auto_start": false,
+    "name": "Mini_Project_v3",
+    "project_id": "4e6f5e68-4608-435a-80d6-93e6cb173c93",
+    "revision": 4,
+    "show_port_names": true,
+    "topology": {
+        "links": [
+            {
+                "description": "Link from Datacenter port 3 to SWB port FastEthernet1/1",
+                "destination_node_id": 7,
+                "destination_port_id": 47,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": -24.39488118598007,
+                    "y": 2.894315094026453
+                },
+                "id": 1,
+                "source_node_id": 8,
+                "source_port_id": 64,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": 74.82024014229357,
+                    "y": 23.34293641211505
+                }
+            },
+            {
+                "description": "Link from Router2 port FastEthernet0/0 to SWA port FastEthernet1/0",
+                "destination_node_id": 6,
+                "destination_port_id": 28,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": -41.35708173081201,
+                    "y": 21.690350557947397
+                },
+                "id": 2,
+                "source_node_id": 3,
+                "source_port_id": 13,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": 72.98702404572322,
+                    "y": 22.98122231730642
+                }
+            },
+            {
+                "description": "Link from SWA port FastEthernet1/4 to Datacenter port 2",
+                "destination_node_id": 8,
+                "destination_port_id": 63,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": -2.418939247504973,
+                    "y": 28.73397213535614
+                },
+                "id": 3,
+                "source_node_id": 6,
+                "source_port_id": 32,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/4",
+                    "x": 67.07579349699733,
+                    "y": 2.66552280125552
+                }
+            },
+            {
+                "description": "Link from Router1 port FastEthernet1/3 to ISP port FastEthernet0/0",
+                "destination_node_id": 1,
+                "destination_port_id": 1,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": 41.648486710497494,
+                    "y": 44.55110936132098
+                },
+                "id": 4,
+                "source_node_id": 2,
+                "source_port_id": 196,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/3",
+                    "x": 41.17994041424869,
+                    "y": -24.622177173186458
+                }
+            },
+            {
+                "description": "Link from SWA port FastEthernet1/1 to Router1 port FastEthernet1/0",
+                "destination_node_id": 2,
+                "destination_port_id": 193,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 10.630626335320255,
+                    "y": 55.16038482662606
+                },
+                "id": 5,
+                "source_node_id": 6,
+                "source_port_id": 29,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": 47.869373664679756,
+                    "y": -9.660384826626057
+                }
+            },
+            {
+                "description": "Link from SWB port FastEthernet1/0 to Router1 port FastEthernet1/1",
+                "destination_node_id": 2,
+                "destination_port_id": 194,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/1",
+                    "x": 73.57924992516104,
+                    "y": 38.972141335522736
+                },
+                "id": 6,
+                "source_node_id": 7,
+                "source_port_id": 46,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": -7.079249925161051,
+                    "y": -46.472141335522736
+                }
+            },
+            {
+                "description": "Link from SWA port FastEthernet1/2 to SWL2A port 1",
+                "destination_node_id": 9,
+                "destination_port_id": 70,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": -10.323544855623823,
+                    "y": -16.742295107794334
+                },
+                "id": 7,
+                "source_node_id": 6,
+                "source_port_id": 30,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/2",
+                    "x": 45.32354485562382,
+                    "y": 58.242295107794334
+                }
+            },
+            {
+                "description": "Link from SWB port FastEthernet1/3 to SWL2A port 2",
+                "destination_node_id": 9,
+                "destination_port_id": 71,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 93.9848740888516,
+                    "y": -13.897344492956478
+                },
+                "id": 8,
+                "source_node_id": 7,
+                "source_port_id": 49,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/3",
+                    "x": -62.984874088851626,
+                    "y": 27.397344492956492
+                }
+            },
+            {
+                "description": "Link from SWA port FastEthernet1/3 to SWL2B port 1",
+                "destination_node_id": 10,
+                "destination_port_id": 78,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": -30.85098251993304,
+                    "y": -16.49414550341767
+                },
+                "id": 9,
+                "source_node_id": 6,
+                "source_port_id": 31,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/3",
+                    "x": 61.71954258850508,
+                    "y": 40.4748264992449
+                }
+            },
+            {
+                "description": "Link from SWB port FastEthernet1/2 to SWL2B port 2",
+                "destination_node_id": 10,
+                "destination_port_id": 79,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 70.26623143891482,
+                    "y": -24.960986305447825
+                },
+                "id": 10,
+                "source_node_id": 7,
+                "source_port_id": 48,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/2",
+                    "x": 5.733768561085185,
+                    "y": 57.46098630544783
+                }
+            },
+            {
+                "description": "Link from SWL2A port 3 to EngeneeringVLAN port 2",
+                "destination_node_id": 11,
+                "destination_port_id": 87,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 95.43807813287498,
+                    "y": -43.170896359079165
+                },
+                "id": 11,
+                "source_node_id": 9,
+                "source_port_id": 72,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": -26.438078132875006,
+                    "y": 11.170896359079165
+                }
+            },
+            {
+                "description": "Link from SWL2B port 3 to EngeneeringVLAN port 3",
+                "destination_node_id": 11,
+                "destination_port_id": 88,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": 109.74531999663225,
+                    "y": -1.7173161754388104
+                },
+                "id": 12,
+                "source_node_id": 10,
+                "source_port_id": 80,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": -32.745319996632276,
+                    "y": 3.7173161754388104
+                }
+            },
+            {
+                "description": "Link from SWL2A port 4 to AdministrationVLAN port 2",
+                "destination_node_id": 12,
+                "destination_port_id": 95,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 63.38854381999832,
+                    "y": -43.77708763999664
+                },
+                "id": 13,
+                "source_node_id": 9,
+                "source_port_id": 73,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "4",
+                    "x": -26.38854381999832,
+                    "y": 37.77708763999664
+                }
+            },
+            {
+                "description": "Link from SWL2B port 4 to AdministrationVLAN port 3",
+                "destination_node_id": 12,
+                "destination_port_id": 96,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": 97.5183947226543,
+                    "y": -7.397564243395294
+                },
+                "id": 14,
+                "source_node_id": 10,
+                "source_port_id": 81,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "4",
+                    "x": -58.518394722654335,
+                    "y": 29.397564243395294
+                }
+            },
+            {
+                "description": "Link from SWL2A port 5 to ResearchVLAN port 2",
+                "destination_node_id": 13,
+                "destination_port_id": 103,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 26.64852076509402,
+                    "y": -39.279196853895485
+                },
+                "id": 15,
+                "source_node_id": 9,
+                "source_port_id": 74,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "5",
+                    "x": 26.35147923490598,
+                    "y": 39.2791968538955
+                }
+            },
+            {
+                "description": "Link from SWL2B port 5 to ResearchVLAN port 3",
+                "destination_node_id": 13,
+                "destination_port_id": 104,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": 75.33768965864695,
+                    "y": -42.535451414764566
+                },
+                "id": 16,
+                "source_node_id": 10,
+                "source_port_id": 82,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "5",
+                    "x": -23.11764603844594,
+                    "y": 31.946919959419873
+                }
+            },
+            {
+                "description": "Link from PC3 port Ethernet0 to ResearchVLAN port 1",
+                "destination_node_id": 13,
+                "destination_port_id": 102,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 68.65935192642885,
+                    "y": 44.50299143371822
+                },
+                "id": 17,
+                "source_node_id": 18,
+                "source_port_id": 144,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 13.340648073571153,
+                    "y": -31.002991433718222
+                }
+            },
+            {
+                "description": "Link from PC1 port Ethernet0 to EngeneeringVLAN port 1",
+                "destination_node_id": 11,
+                "destination_port_id": 86,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": -24.977376753478723,
+                    "y": 29.476563366679187
+                },
+                "id": 18,
+                "source_node_id": 19,
+                "source_port_id": 145,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 48.97737675347872,
+                    "y": -27.976563366679187
+                }
+            },
+            {
+                "description": "Link from PC7 port Ethernet0 to ResearchVLAN port 4",
+                "destination_node_id": 13,
+                "destination_port_id": 105,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "4",
+                    "x": -11.383107984018132,
+                    "y": 39.868529528780584
+                },
+                "id": 19,
+                "source_node_id": 22,
+                "source_port_id": 148,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 23.38310798401814,
+                    "y": -24.368529528780584
+                }
+            },
+            {
+                "description": "Link from PC8 port Ethernet0 to AdministrationVLAN port 5",
+                "destination_node_id": 12,
+                "destination_port_id": 98,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "5",
+                    "x": -6.986714794217875,
+                    "y": 34.44431691353424
+                },
+                "id": 20,
+                "source_node_id": 23,
+                "source_port_id": 149,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 24.986714794217875,
+                    "y": -26.944316913534237
+                }
+            },
+            {
+                "description": "Link from PC9 port Ethernet0 to EngeneeringVLAN port 4",
+                "destination_node_id": 11,
+                "destination_port_id": 89,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "4",
+                    "x": 35.50496675591705,
+                    "y": 42.66277282913393
+                },
+                "id": 21,
+                "source_node_id": 24,
+                "source_port_id": 150,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 48.49503324408295,
+                    "y": -7.162772829133928
+                }
+            },
+            {
+                "description": "Link from PC2 port Ethernet0 to AdministrationVLAN port 1",
+                "destination_node_id": 12,
+                "destination_port_id": 94,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 56.49968764640812,
+                    "y": 31.9875058563249
+                },
+                "id": 22,
+                "source_node_id": 27,
+                "source_port_id": 153,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 24.45749436472954,
+                    "y": -21.98584200813079
+                }
+            },
+            {
+                "description": "Link from Datacenter port 1 to Datacenter_Priv port Ethernet0",
+                "destination_node_id": 28,
+                "destination_port_id": 154,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 64.89593345558457,
+                    "y": 32.166232633775536
+                },
+                "id": 23,
+                "source_node_id": 8,
+                "source_port_id": 62,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 6.309160426171175,
+                    "y": -33.60135948147271
+                }
+            },
+            {
+                "description": "Link from ISP port FastEthernet0/1 to Internet port Ethernet0",
+                "destination_node_id": 30,
+                "destination_port_id": 384,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -27.492543845663675,
+                    "y": 28.727706822075334
+                },
+                "id": 24,
+                "source_node_id": 1,
+                "source_port_id": 2,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/1",
+                    "x": 72.99254384566368,
+                    "y": 22.772293177924666
+                }
+            },
+            {
+                "description": "Link from SWL2A port 6 to VoIPVLAN port 2",
+                "destination_node_id": 14,
+                "destination_port_id": 111,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": -7.651995924822188,
+                    "y": -32.38180435533681
+                },
+                "id": 25,
+                "source_node_id": 9,
+                "source_port_id": 75,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "6",
+                    "x": 68.65199592482219,
+                    "y": 38.38180435533681
+                }
+            },
+            {
+                "description": "Link from SWL2B port 6 to VoIPVLAN port 3",
+                "destination_node_id": 14,
+                "destination_port_id": 112,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": 21.814950866576197,
+                    "y": -37.99876005517723
+                },
+                "id": 26,
+                "source_node_id": 10,
+                "source_port_id": 83,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "6",
+                    "x": 7.185049133423803,
+                    "y": 37.99876005517726
+                }
+            },
+            {
+                "description": "Link from PC4 port Ethernet0 to VoIPVLAN port 1",
+                "destination_node_id": 14,
+                "destination_port_id": 110,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 62.660098968464226,
+                    "y": 33.410858324563236
+                },
+                "id": 27,
+                "source_node_id": 20,
+                "source_port_id": 146,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 17.339901031535774,
+                    "y": -23.910858324563264
+                }
+            },
+            {
+                "description": "Link from PC10 port Ethernet0 to VoIPVLAN port 4",
+                "destination_node_id": 14,
+                "destination_port_id": 113,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "4",
+                    "x": 1.4012413027426902,
+                    "y": 43.17154716836697
+                },
+                "id": 28,
+                "source_node_id": 25,
+                "source_port_id": 151,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 16.59875869725731,
+                    "y": -27.671547168367
+                }
+            },
+            {
+                "description": "Link from SWL2A port 7 to VideoConfVLAN port 2",
+                "destination_node_id": 15,
+                "destination_port_id": 119,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": -25.59121159845239,
+                    "y": 3.025287242860827
+                },
+                "id": 29,
+                "source_node_id": 9,
+                "source_port_id": 76,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "7",
+                    "x": 76.59121159845245,
+                    "y": 8.974712757139187
+                }
+            },
+            {
+                "description": "Link from SWL2B port 7 to VideoConfVLAN port 3",
+                "destination_node_id": 15,
+                "destination_port_id": 120,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": -14.784271247461902,
+                    "y": -42.2842712474619
+                },
+                "id": 30,
+                "source_node_id": 10,
+                "source_port_id": 84,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "7",
+                    "x": 63.7842712474619,
+                    "y": 44.2842712474619
+                }
+            },
+            {
+                "description": "Link from PC5 port Ethernet0 to VideoConfVLAN port 1",
+                "destination_node_id": 15,
+                "destination_port_id": 118,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 75.48334591618556,
+                    "y": 22.15138942314158
+                },
+                "id": 31,
+                "source_node_id": 21,
+                "source_port_id": 147,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -3.6427254826195963,
+                    "y": -32.14886410619988
+                }
+            },
+            {
+                "description": "Link from PC11 port Ethernet0 to VideoConfVLAN port 4",
+                "destination_node_id": 15,
+                "destination_port_id": 121,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "4",
+                    "x": -28.528755360171687,
+                    "y": 39.56576702909874
+                },
+                "id": 32,
+                "source_node_id": 26,
+                "source_port_id": 152,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 42.5115114174686,
+                    "y": -29.45054333994898
+                }
+            },
+            {
+                "description": "Link from Datacenter_Pub port Ethernet0 to Datacenter port 4",
+                "destination_node_id": 8,
+                "destination_port_id": 65,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "4",
+                    "x": 53.86111914362253,
+                    "y": -39.3756286807492
+                },
+                "id": 33,
+                "source_node_id": 33,
+                "source_port_id": 394,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -23.701739577188476,
+                    "y": 31.277648934302505
+                }
+            },
+            {
+                "description": "Link from VideoConf_Pub1 port Ethernet0 to VideoConfVLAN port 5",
+                "destination_node_id": 15,
+                "destination_port_id": 122,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "5",
+                    "x": 31.303557102001264,
+                    "y": 55.95931908553774
+                },
+                "id": 34,
+                "source_node_id": 34,
+                "source_port_id": 395,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 44.696442897998736,
+                    "y": -24.459319085537743
+                }
+            },
+            {
+                "description": "Link from VideoConfPub2 port Ethernet0 to VideoConfVLAN port 6",
+                "destination_node_id": 15,
+                "destination_port_id": 123,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "6",
+                    "x": 52.81610669308904,
+                    "y": 52.0576267798306
+                },
+                "id": 35,
+                "source_node_id": 35,
+                "source_port_id": 396,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 27.18389330691093,
+                    "y": -26.557626779830514
+                }
+            },
+            {
+                "description": "Link from Research_Pub1 port Ethernet0 to ResearchVLAN port 5",
+                "destination_node_id": 13,
+                "destination_port_id": 106,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "5",
+                    "x": 8.648044999646473,
+                    "y": 69.00824134297415
+                },
+                "id": 36,
+                "source_node_id": 36,
+                "source_port_id": 397,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 47.35195500035351,
+                    "y": -25.508241342974145
+                }
+            },
+            {
+                "description": "Link from Research_Pub2 port Ethernet0 to ResearchVLAN port 6",
+                "destination_node_id": 13,
+                "destination_port_id": 107,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "6",
+                    "x": 35.07495954930601,
+                    "y": 70.28864468000833
+                },
+                "id": 37,
+                "source_node_id": 37,
+                "source_port_id": 398,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 26.925040450694,
+                    "y": -26.788644680008304
+                }
+            },
+            {
+                "description": "Link from Router1 port FastEthernet1/2 to DMZ port 1",
+                "destination_node_id": 32,
+                "destination_port_id": 386,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 82.8403690818649,
+                    "y": -6.69187727243542
+                },
+                "id": 38,
+                "source_node_id": 2,
+                "source_port_id": 195,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/2",
+                    "x": -42.62464032932682,
+                    "y": -1.9771702858767526
+                }
+            },
+            {
+                "description": "Link from DMZ_Priv port Ethernet0 to DMZ port 2",
+                "destination_node_id": 32,
+                "destination_port_id": 387,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": -22.133023236215564,
+                    "y": -24.50862124492471
+                },
+                "id": 39,
+                "source_node_id": 16,
+                "source_port_id": 142,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 66.09139267587292,
+                    "y": 7.783224500508538
+                }
+            },
+            {
+                "description": "Link from DMZ_Pub port Ethernet0 to DMZ port 3",
+                "destination_node_id": 32,
+                "destination_port_id": 388,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": -15.62727780613804,
+                    "y": 40.09852652571004
+                },
+                "id": 40,
+                "source_node_id": 31,
+                "source_port_id": 385,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 51.100365871556846,
+                    "y": -5.912235024694837
+                }
+            },
+            {
+                "description": "Link from SW1 port 1 to Router2 port FastEthernet0/1",
+                "destination_node_id": 3,
+                "destination_port_id": 14,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/1",
+                    "x": -5.123791318823635,
+                    "y": 34.10687967557237
+                },
+                "id": 41,
+                "source_node_id": 39,
+                "source_port_id": 466,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 73.62379131882363,
+                    "y": 3.8931203244276276
+                }
+            },
+            {
+                "description": "Link from SW1 port 2 to OldBuilding_PC1 port Ethernet0",
+                "destination_node_id": 17,
+                "destination_port_id": 143,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 71.90796082897293,
+                    "y": 36.3565751875216
+                },
+                "id": 42,
+                "source_node_id": 39,
+                "source_port_id": 467,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": -3.907960828972932,
+                    "y": 9.143424812478415
+                }
+            },
+            {
+                "description": "Link from SW1 port 3 to OldBuilding_PC2 port Ethernet0",
+                "destination_node_id": 38,
+                "destination_port_id": 465,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 75.5493475717991,
+                    "y": 9.924028763057033
+                },
+                "id": 43,
+                "source_node_id": 39,
+                "source_port_id": 468,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": 5.860521942560695,
+                    "y": 42.860776989554374
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "description": "Router c3745",
+                "dynamips_id": 1,
+                "id": 1,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "ISP",
+                    "x": 21.4296875,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to Router1 on port FastEthernet1/3",
+                        "id": 1,
+                        "link_id": 4,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to Internet on port Ethernet0",
+                        "id": 2,
+                        "link_id": 24,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 3,
+                        "name": "Serial1/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 4,
+                        "name": "Serial1/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 5,
+                        "name": "Serial1/2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 6,
+                        "name": "Serial1/3",
+                        "port_number": 3
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 8,
+                    "console": 5018,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60b23d04",
+                    "idlesleep": 30,
+                    "image": "c3745-advipservicesk9-m.124-4.T1.bin",
+                    "image_md5sum": "e3d1bcb0f5772808e8967e2bb75438b7",
+                    "iomem": 5,
+                    "mac_addr": "c401.57d7.0000",
+                    "mmap": true,
+                    "name": "ISP",
+                    "nvram": 256,
+                    "platform": "c3745",
+                    "ram": 256,
+                    "slot0": "GT96100-FE",
+                    "slot1": "NM-4T",
+                    "sparsemem": true,
+                    "startup_config": "configs/i1_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "type": "C3745",
+                "vm_id": "9bd12f99-e6fd-4fca-8c03-9c21e63e1e3a",
+                "x": -0.1888168179569334,
+                "y": -587.8528137423856
+            },
+            {
+                "description": "Router c3745",
+                "dynamips_id": 2,
+                "id": 2,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Router1",
+                    "x": -31.743395998984752,
+                    "y": -25.65685424949237
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "id": 7,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 8,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to SWA on port FastEthernet1/1",
+                        "id": 193,
+                        "link_id": 5,
+                        "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to SWB on port FastEthernet1/0",
+                        "id": 194,
+                        "link_id": 6,
+                        "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to DMZ on port 1",
+                        "id": 195,
+                        "link_id": 38,
+                        "name": "FastEthernet1/2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to ISP on port FastEthernet0/0",
+                        "id": 196,
+                        "link_id": 4,
+                        "name": "FastEthernet1/3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 197,
+                        "name": "FastEthernet1/4",
+                        "port_number": 4
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 198,
+                        "name": "FastEthernet1/5",
+                        "port_number": 5
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 199,
+                        "name": "FastEthernet1/6",
+                        "port_number": 6
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 200,
+                        "name": "FastEthernet1/7",
+                        "port_number": 7
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 201,
+                        "name": "FastEthernet1/8",
+                        "port_number": 8
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 202,
+                        "name": "FastEthernet1/9",
+                        "port_number": 9
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 203,
+                        "name": "FastEthernet1/10",
+                        "port_number": 10
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 204,
+                        "name": "FastEthernet1/11",
+                        "port_number": 11
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 205,
+                        "name": "FastEthernet1/12",
+                        "port_number": 12
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 206,
+                        "name": "FastEthernet1/13",
+                        "port_number": 13
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 207,
+                        "name": "FastEthernet1/14",
+                        "port_number": 14
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 208,
+                        "name": "FastEthernet1/15",
+                        "port_number": 15
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 8,
+                    "console": 5019,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60b23d04",
+                    "idlesleep": 30,
+                    "image": "c3745-advipservicesk9-m.124-4.T1.bin",
+                    "image_md5sum": "e3d1bcb0f5772808e8967e2bb75438b7",
+                    "iomem": 5,
+                    "mac_addr": "c402.57d8.0000",
+                    "mmap": true,
+                    "name": "Router1",
+                    "nvram": 256,
+                    "platform": "c3745",
+                    "ram": 256,
+                    "slot0": "GT96100-FE",
+                    "slot1": "NM-16ESW",
+                    "sparsemem": true,
+                    "startup_config": "configs/i2_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "type": "C3745",
+                "vm_id": "538d236d-d146-4324-b34e-c452b799e370",
+                "x": 3.7401153701775973,
+                "y": -466.22539674441623
+            },
+            {
+                "description": "Router c3745",
+                "dynamips_id": 3,
+                "id": 3,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Router2",
+                    "x": 2.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SWA on port FastEthernet1/0",
+                        "id": 13,
+                        "link_id": 2,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 1",
+                        "id": 14,
+                        "link_id": 41,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 15,
+                        "name": "Serial1/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 16,
+                        "name": "Serial1/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 17,
+                        "name": "Serial1/2",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 18,
+                        "name": "Serial1/3",
+                        "port_number": 3
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 8,
+                    "console": 5020,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60b23d04",
+                    "idlesleep": 30,
+                    "image": "c3745-advipservicesk9-m.124-4.T1.bin",
+                    "image_md5sum": "e3d1bcb0f5772808e8967e2bb75438b7",
+                    "iomem": 5,
+                    "mac_addr": "c403.57d9.0000",
+                    "mmap": true,
+                    "name": "Router2",
+                    "nvram": 256,
+                    "platform": "c3745",
+                    "ram": 256,
+                    "slot0": "GT96100-FE",
+                    "slot1": "NM-4T",
+                    "sparsemem": true,
+                    "startup_config": "configs/i3_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "type": "C3745",
+                "vm_id": "6544de7e-9d29-4296-99d5-10a0e914b2cc",
+                "x": -410.99999999999983,
+                "y": -141.00000000000003
+            },
+            {
+                "description": "Router c3745",
+                "dynamips_id": 6,
+                "id": 6,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SWA",
+                    "x": 6.453125,
+                    "y": -23.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "id": 26,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 27,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to Router2 on port FastEthernet0/0",
+                        "id": 28,
+                        "link_id": 2,
+                        "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to Router1 on port FastEthernet1/0",
+                        "id": 29,
+                        "link_id": 5,
+                        "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to SWL2A on port 1",
+                        "id": 30,
+                        "link_id": 7,
+                        "name": "FastEthernet1/2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to SWL2B on port 1",
+                        "id": 31,
+                        "link_id": 9,
+                        "name": "FastEthernet1/3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to Datacenter on port 2",
+                        "id": 32,
+                        "link_id": 3,
+                        "name": "FastEthernet1/4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 33,
+                        "name": "FastEthernet1/5",
+                        "port_number": 5
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 34,
+                        "name": "FastEthernet1/6",
+                        "port_number": 6
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 35,
+                        "name": "FastEthernet1/7",
+                        "port_number": 7
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 36,
+                        "name": "FastEthernet1/8",
+                        "port_number": 8
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 37,
+                        "name": "FastEthernet1/9",
+                        "port_number": 9
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 38,
+                        "name": "FastEthernet1/10",
+                        "port_number": 10
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 39,
+                        "name": "FastEthernet1/11",
+                        "port_number": 11
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 40,
+                        "name": "FastEthernet1/12",
+                        "port_number": 12
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 41,
+                        "name": "FastEthernet1/13",
+                        "port_number": 13
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 42,
+                        "name": "FastEthernet1/14",
+                        "port_number": 14
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 43,
+                        "name": "FastEthernet1/15",
+                        "port_number": 15
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": false,
+                    "clock_divisor": 8,
+                    "console": 5021,
+                    "disk0": 1,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x6024b540",
+                    "idlesleep": 30,
+                    "image": "c3745-advipservicesk9-mz.124-15.T6.image",
+                    "image_md5sum": "bf55c8a5b21e38ef17d51b05e56960a6",
+                    "iomem": 5,
+                    "mac_addr": "c406.57ee.0000",
+                    "mmap": true,
+                    "name": "SWA",
+                    "nvram": 256,
+                    "platform": "c3745",
+                    "ram": 256,
+                    "slot0": "GT96100-FE",
+                    "slot1": "NM-16ESW",
+                    "sparsemem": true,
+                    "startup_config": "configs/i6_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/multilayer_switch.svg",
+                "type": "C3745",
+                "vm_id": "681fa411-d206-4c88-9f96-e0286856bd51",
+                "x": -209.50000000000003,
+                "y": -140.5
+            },
+            {
+                "description": "Router c3745",
+                "dynamips_id": 7,
+                "id": 7,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SWB",
+                    "x": 10.984375,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "id": 44,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 45,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to Router1 on port FastEthernet1/1",
+                        "id": 46,
+                        "link_id": 6,
+                        "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to Datacenter on port 3",
+                        "id": 47,
+                        "link_id": 1,
+                        "name": "FastEthernet1/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to SWL2B on port 2",
+                        "id": 48,
+                        "link_id": 10,
+                        "name": "FastEthernet1/2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to SWL2A on port 2",
+                        "id": 49,
+                        "link_id": 8,
+                        "name": "FastEthernet1/3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 50,
+                        "name": "FastEthernet1/4",
+                        "port_number": 4
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 51,
+                        "name": "FastEthernet1/5",
+                        "port_number": 5
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 52,
+                        "name": "FastEthernet1/6",
+                        "port_number": 6
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 53,
+                        "name": "FastEthernet1/7",
+                        "port_number": 7
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 54,
+                        "name": "FastEthernet1/8",
+                        "port_number": 8
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 55,
+                        "name": "FastEthernet1/9",
+                        "port_number": 9
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 56,
+                        "name": "FastEthernet1/10",
+                        "port_number": 10
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 57,
+                        "name": "FastEthernet1/11",
+                        "port_number": 11
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 58,
+                        "name": "FastEthernet1/12",
+                        "port_number": 12
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 59,
+                        "name": "FastEthernet1/13",
+                        "port_number": 13
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 60,
+                        "name": "FastEthernet1/14",
+                        "port_number": 14
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 61,
+                        "name": "FastEthernet1/15",
+                        "port_number": 15
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": false,
+                    "clock_divisor": 8,
+                    "console": 5022,
+                    "disk0": 1,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x6024b540",
+                    "idlesleep": 30,
+                    "image": "c3745-advipservicesk9-mz.124-15.T6.image",
+                    "image_md5sum": "bf55c8a5b21e38ef17d51b05e56960a6",
+                    "iomem": 5,
+                    "mac_addr": "c407.57f2.0000",
+                    "mmap": true,
+                    "name": "SWB",
+                    "nvram": 256,
+                    "platform": "c3745",
+                    "ram": 256,
+                    "slot0": "GT96100-FE",
+                    "slot1": "NM-16ESW",
+                    "sparsemem": true,
+                    "startup_config": "configs/i7_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/multilayer_switch.svg",
+                "type": "C3745",
+                "vm_id": "8540dfb7-f748-4f90-a758-303db84165ab",
+                "x": 298.56096654409885,
+                "y": -148.1568542494924
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "3bb8ac27-c987-4c62-bb15-75fbb5117095",
+                "id": 8,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Datacenter",
+                    "x": -5.5,
+                    "y": 45.71067811865474
+                },
+                "ports": [
+                    {
+                        "description": "connected to Datacenter_Priv on port Ethernet0",
+                        "id": 62,
+                        "link_id": 23,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to SWA on port FastEthernet1/4",
+                        "id": 63,
+                        "link_id": 3,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to SWB on port FastEthernet1/1",
+                        "id": 64,
+                        "link_id": 1,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to Datacenter_Pub on port Ethernet0",
+                        "id": 65,
+                        "link_id": 33,
+                        "name": "4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 66,
+                        "name": "5",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 67,
+                        "name": "6",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 68,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 69,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "Datacenter"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": 15.867532368147124,
+                "y": -136.51471862576145
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "6d30c162-815b-47f7-86b1-3d9b00f82f0c",
+                "id": 9,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SWL2A",
+                    "x": 30.249999999999986,
+                    "y": -38.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to SWA on port FastEthernet1/2",
+                        "id": 70,
+                        "link_id": 7,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "dot1q",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to SWB on port FastEthernet1/3",
+                        "id": 71,
+                        "link_id": 8,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "dot1q",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to EngeneeringVLAN on port 2",
+                        "id": 72,
+                        "link_id": 11,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to AdministrationVLAN on port 2",
+                        "id": 73,
+                        "link_id": 13,
+                        "name": "4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 2
+                    },
+                    {
+                        "description": "connected to ResearchVLAN on port 2",
+                        "id": 74,
+                        "link_id": 15,
+                        "name": "5",
+                        "nio": "NIO_UDP",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 3
+                    },
+                    {
+                        "description": "connected to VoIPVLAN on port 2",
+                        "id": 75,
+                        "link_id": 25,
+                        "name": "6",
+                        "nio": "NIO_UDP",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 4
+                    },
+                    {
+                        "description": "connected to VideoConfVLAN on port 2",
+                        "id": 76,
+                        "link_id": 29,
+                        "name": "7",
+                        "nio": "NIO_UDP",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 5
+                    },
+                    {
+                        "id": 77,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "SWL2A"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": -122.5,
+                "y": 40.0
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "c860c930-3392-4e1a-99df-2874f23ff185",
+                "id": 10,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SWL2B",
+                    "x": 0.7812500000000284,
+                    "y": -42.99999999999999
+                },
+                "ports": [
+                    {
+                        "description": "connected to SWA on port FastEthernet1/3",
+                        "id": 78,
+                        "link_id": 9,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "dot1q",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to SWB on port FastEthernet1/2",
+                        "id": 79,
+                        "link_id": 10,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "dot1q",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to EngeneeringVLAN on port 3",
+                        "id": 80,
+                        "link_id": 12,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to AdministrationVLAN on port 3",
+                        "id": 81,
+                        "link_id": 14,
+                        "name": "4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 2
+                    },
+                    {
+                        "description": "connected to ResearchVLAN on port 3",
+                        "id": 82,
+                        "link_id": 16,
+                        "name": "5",
+                        "nio": "NIO_UDP",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 3
+                    },
+                    {
+                        "description": "connected to VoIPVLAN on port 3",
+                        "id": 83,
+                        "link_id": 26,
+                        "name": "6",
+                        "nio": "NIO_UDP",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 4
+                    },
+                    {
+                        "description": "connected to VideoConfVLAN on port 3",
+                        "id": 84,
+                        "link_id": 30,
+                        "name": "7",
+                        "nio": "NIO_UDP",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 5
+                    },
+                    {
+                        "id": 85,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 293,
+                        "name": "9",
+                        "port_number": 9,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "SWL2B"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": 147.49999999999997,
+                "y": 39.000000000000014
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "fe1e7863-1b30-4225-8406-a6d4d483cd6c",
+                "id": 11,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "EngeneeringVLAN",
+                    "x": -26.53125,
+                    "y": -31.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to PC1 on port Ethernet0",
+                        "id": 86,
+                        "link_id": 18,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to SWL2A on port 3",
+                        "id": 87,
+                        "link_id": 11,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to SWL2B on port 3",
+                        "id": 88,
+                        "link_id": 12,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to PC9 on port Ethernet0",
+                        "id": 89,
+                        "link_id": 21,
+                        "name": "4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 90,
+                        "name": "5",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 91,
+                        "name": "6",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 92,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 93,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "EngeneeringVLAN"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": -456.49999999999994,
+                "y": 183.0
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "f1bd4767-9d10-4eb9-95e5-277c21e82da5",
+                "id": 12,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "AdministrationVLAN",
+                    "x": -20.9453125,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to PC2 on port Ethernet0",
+                        "id": 94,
+                        "link_id": 22,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 2
+                    },
+                    {
+                        "description": "connected to SWL2A on port 4",
+                        "id": 95,
+                        "link_id": 13,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 2
+                    },
+                    {
+                        "description": "connected to SWL2B on port 4",
+                        "id": 96,
+                        "link_id": 14,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 2
+                    },
+                    {
+                        "id": 97,
+                        "name": "4",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 2
+                    },
+                    {
+                        "description": "connected to PC8 on port Ethernet0",
+                        "id": 98,
+                        "link_id": 20,
+                        "name": "5",
+                        "nio": "NIO_UDP",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 2
+                    },
+                    {
+                        "id": 99,
+                        "name": "6",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 100,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 101,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "AdministrationVLAN"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": -269.50000000000006,
+                "y": 193.99999999999994
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "119a6d6e-cf00-4619-badc-1efefc8624bc",
+                "id": 13,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "ResearchVLAN",
+                    "x": -5.6796875,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to PC3 on port Ethernet0",
+                        "id": 102,
+                        "link_id": 17,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 3
+                    },
+                    {
+                        "description": "connected to SWL2A on port 5",
+                        "id": 103,
+                        "link_id": 15,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 3
+                    },
+                    {
+                        "description": "connected to SWL2B on port 5",
+                        "id": 104,
+                        "link_id": 16,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 3
+                    },
+                    {
+                        "description": "connected to PC7 on port Ethernet0",
+                        "id": 105,
+                        "link_id": 19,
+                        "name": "4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 3
+                    },
+                    {
+                        "description": "connected to Research_Pub1 on port Ethernet0",
+                        "id": 106,
+                        "link_id": 36,
+                        "name": "5",
+                        "nio": "NIO_UDP",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 3
+                    },
+                    {
+                        "description": "connected to Research_Pub2 on port Ethernet0",
+                        "id": 107,
+                        "link_id": 37,
+                        "name": "6",
+                        "nio": "NIO_UDP",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 3
+                    },
+                    {
+                        "id": 108,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 109,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "ResearchVLAN"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": -72.5,
+                "y": 190.99999999999997
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "0e492ec8-e22b-4015-811e-eaf44d3e815a",
+                "id": 14,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "VoIPVLAN",
+                    "x": 46.1875,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to PC4 on port Ethernet0",
+                        "id": 110,
+                        "link_id": 27,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 4
+                    },
+                    {
+                        "description": "connected to SWL2A on port 6",
+                        "id": 111,
+                        "link_id": 25,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 4
+                    },
+                    {
+                        "description": "connected to SWL2B on port 6",
+                        "id": 112,
+                        "link_id": 26,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 4
+                    },
+                    {
+                        "description": "connected to PC10 on port Ethernet0",
+                        "id": 113,
+                        "link_id": 28,
+                        "name": "4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 4
+                    },
+                    {
+                        "id": 114,
+                        "name": "5",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 115,
+                        "name": "6",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 116,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 117,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "VoIPVLAN"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": 120.5,
+                "y": 192.99999999999997
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "cad67aef-eafd-4001-9e4f-abf6897f1a97",
+                "id": 15,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "VideoConfVLAN",
+                    "x": -9.0546875,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to PC5 on port Ethernet0",
+                        "id": 118,
+                        "link_id": 31,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 5
+                    },
+                    {
+                        "description": "connected to SWL2A on port 7",
+                        "id": 119,
+                        "link_id": 29,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 5
+                    },
+                    {
+                        "description": "connected to SWL2B on port 7",
+                        "id": 120,
+                        "link_id": 30,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 5
+                    },
+                    {
+                        "description": "connected to PC11 on port Ethernet0",
+                        "id": 121,
+                        "link_id": 32,
+                        "name": "4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 5
+                    },
+                    {
+                        "description": "connected to VideoConf_Pub1 on port Ethernet0",
+                        "id": 122,
+                        "link_id": 34,
+                        "name": "5",
+                        "nio": "NIO_UDP",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 5
+                    },
+                    {
+                        "description": "connected to VideoConfPub2 on port Ethernet0",
+                        "id": 123,
+                        "link_id": 35,
+                        "name": "6",
+                        "nio": "NIO_UDP",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 5
+                    },
+                    {
+                        "id": 124,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 125,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "VideoConfVLAN"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": 401.4999999999999,
+                "y": 190.00000000000003
+            },
+            {
+                "description": "VPCS device",
+                "id": 16,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "DMZ_Priv",
+                    "x": -1.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to DMZ on port 2",
+                        "id": 142,
+                        "link_id": 39,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5023,
+                    "name": "DMZ_Priv",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "745ff953-9c45-4672-9868-bb44085229c0",
+                "x": -511.247258045114,
+                "y": -455.49494936611666
+            },
+            {
+                "description": "VPCS device",
+                "id": 17,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "OldBuilding_PC1",
+                    "x": -22.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 2",
+                        "id": 143,
+                        "link_id": 42,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5024,
+                    "name": "OldBuilding_PC1",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "bb47b53f-bced-44eb-9c71-9babe14e1df7",
+                "x": -758.6715728752539,
+                "y": -152.50000000000003
+            },
+            {
+                "description": "VPCS device",
+                "id": 18,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC3",
+                    "x": 18.5859375,
+                    "y": 67.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ResearchVLAN on port 1",
+                        "id": 144,
+                        "link_id": 17,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5025,
+                    "name": "PC3",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "098ab095-22a1-443d-8b5a-5fc46209b402",
+                "x": -0.08578643762691307,
+                "y": 289.49999999999994
+            },
+            {
+                "description": "VPCS device",
+                "id": 19,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC1",
+                    "x": 14.5859375,
+                    "y": 67.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to EngeneeringVLAN on port 1",
+                        "id": 145,
+                        "link_id": 18,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5026,
+                    "name": "PC1",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "01525ca3-3b0c-4b81-85af-5e87b084f7e1",
+                "x": -615.5000000000001,
+                "y": 294.50000000000006
+            },
+            {
+                "description": "VPCS device",
+                "id": 20,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC4",
+                    "x": 14.5859375,
+                    "y": 73.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to VoIPVLAN on port 1",
+                        "id": 146,
+                        "link_id": 27,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5027,
+                    "name": "PC4",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "79ce3e3a-e0bc-4711-bd4d-be0cb84c5a24",
+                "x": 181.49999999999997,
+                "y": 283.50000000000006
+            },
+            {
+                "description": "VPCS device",
+                "id": 21,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC5",
+                    "x": 20.5859375,
+                    "y": 65.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to VideoConfVLAN on port 1",
+                        "id": 147,
+                        "link_id": 31,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5028,
+                    "name": "PC5",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "2fd4ed05-8b83-4b89-a2e5-a44e5a6ce375",
+                "x": 527.7914139223982,
+                "y": 283.80151519016493
+            },
+            {
+                "description": "VPCS device",
+                "id": 22,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC7",
+                    "x": 10.5859375,
+                    "y": 69.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ResearchVLAN on port 4",
+                        "id": 148,
+                        "link_id": 19,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5029,
+                    "name": "PC7",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "5169f5c7-b792-4e3b-ab6b-40600eb1350f",
+                "x": -126.50000000000001,
+                "y": 292.50000000000006
+            },
+            {
+                "description": "VPCS device",
+                "id": 23,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC8",
+                    "x": 20.5859375,
+                    "y": 65.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to AdministrationVLAN on port 5",
+                        "id": 149,
+                        "link_id": 20,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5030,
+                    "name": "PC8",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "aaa78c5b-8aac-4ff9-8111-140b870fc422",
+                "x": -337.50000000000006,
+                "y": 296.50000000000006
+            },
+            {
+                "description": "VPCS device",
+                "id": 24,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC9",
+                    "x": 18.5859375,
+                    "y": 73.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to EngeneeringVLAN on port 4",
+                        "id": 150,
+                        "link_id": 21,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5031,
+                    "name": "PC9",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "1a51f2ba-b8b7-4ae9-af66-701a7bb16024",
+                "x": -464.5000000000001,
+                "y": 292.50000000000006
+            },
+            {
+                "description": "VPCS device",
+                "id": 25,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC10",
+                    "x": 15.2890625,
+                    "y": 69.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to VoIPVLAN on port 4",
+                        "id": 151,
+                        "link_id": 28,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5032,
+                    "name": "PC10",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "38ecdc89-e7a2-425e-a8f3-c81b8c4e94d2",
+                "x": 94.08578643762688,
+                "y": 290.8137084989847
+            },
+            {
+                "description": "VPCS device",
+                "id": 26,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC11",
+                    "x": 9.2890625,
+                    "y": 69.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to VideoConfVLAN on port 4",
+                        "id": 152,
+                        "link_id": 32,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5033,
+                    "name": "PC11",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "671030d3-c507-44ab-8645-41fc6219c1c0",
+                "x": 288.99242404917493,
+                "y": 281.4289321881345
+            },
+            {
+                "description": "VPCS device",
+                "id": 27,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC2",
+                    "x": 18.5859375,
+                    "y": 67.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to AdministrationVLAN on port 1",
+                        "id": 153,
+                        "link_id": 22,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5034,
+                    "name": "PC2",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "28f21577-766c-4819-8050-1091290e11f6",
+                "x": -226.49999999999997,
+                "y": 288.6715728752538
+            },
+            {
+                "description": "VPCS device",
+                "id": 28,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Datacenter_Priv",
+                    "x": -25.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to Datacenter on port 1",
+                        "id": 154,
+                        "link_id": 23,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5035,
+                    "name": "Datacenter_Priv",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "f3cab51b-8483-4fd1-ad2c-59f1c5164489",
+                "x": -76.52943725152286,
+                "y": -227.35786437626905
+            },
+            {
+                "description": "VPCS device",
+                "id": 30,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Internet",
+                    "x": 1.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ISP on port FastEthernet0/1",
+                        "id": 384,
+                        "link_id": 24,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5000,
+                    "name": "Internet",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "4504de33-a23e-4837-bbe1-34d8e7047f67",
+                "x": 241.48989873223326,
+                "y": -598.5163773909259
+            },
+            {
+                "description": "VPCS device",
+                "id": 31,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "DMZ_Pub",
+                    "x": -1.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to DMZ on port 3",
+                        "id": 385,
+                        "link_id": 40,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5001,
+                    "name": "DMZ_Pub",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "46234aaa-b9aa-404e-8a42-c9339f7543d5",
+                "x": -517.5752518939717,
+                "y": -335.55591591021533
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "81233ed4-aebe-412e-bf4f-b30848215dc0",
+                "id": 32,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "DMZ",
+                    "x": 18.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to Router1 on port FastEthernet1/2",
+                        "id": 386,
+                        "link_id": 38,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to DMZ_Priv on port Ethernet0",
+                        "id": 387,
+                        "link_id": 39,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to DMZ_Pub on port Ethernet0",
+                        "id": 388,
+                        "link_id": 40,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 389,
+                        "name": "4",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 390,
+                        "name": "5",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 391,
+                        "name": "6",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 392,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 393,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "DMZ"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": -296.88686835190316,
+                "y": -412.080302527855
+            },
+            {
+                "description": "VPCS device",
+                "id": 33,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Datacenter_Pub",
+                    "x": -24.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to Datacenter on port 4",
+                        "id": 394,
+                        "link_id": 33,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5002,
+                    "name": "Datacenter_Pub",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "79dc55b7-9e37-47fe-b940-1f0c316b7765",
+                "x": 120.0929291125633,
+                "y": -233.00461735799468
+            },
+            {
+                "description": "VPCS device",
+                "id": 34,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "VideoConf_Pub1",
+                    "x": -16.0,
+                    "y": 69.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to VideoConfVLAN on port 5",
+                        "id": 395,
+                        "link_id": 34,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5003,
+                    "name": "VideoConf_Pub1",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "22d48f64-f889-41de-aad1-493b30f9b2da",
+                "x": 359.57315985291837,
+                "y": 417.83513652379395
+            },
+            {
+                "description": "VPCS device",
+                "id": 35,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "VideoConfPub2",
+                    "x": -14.0,
+                    "y": 79.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to VideoConfVLAN on port 6",
+                        "id": 396,
+                        "link_id": 35,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5004,
+                    "name": "VideoConfPub2",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "4756f67e-e9f1-416a-9b1c-5701759a1440",
+                "x": 489.63917703090067,
+                "y": 408.42092296142084
+            },
+            {
+                "description": "VPCS device",
+                "id": 36,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Research_Pub1",
+                    "x": -26.0,
+                    "y": 75.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ResearchVLAN on port 5",
+                        "id": 397,
+                        "link_id": 36,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5005,
+                    "name": "Research_Pub1",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "d9b9e23f-4b56-440c-880e-f0997f671ee3",
+                "x": -104.62489168102782,
+                "y": 430.42092296142084
+            },
+            {
+                "description": "VPCS device",
+                "id": 37,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Research_Pub2",
+                    "x": -16.0,
+                    "y": 75.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ResearchVLAN on port 6",
+                        "id": 398,
+                        "link_id": 37,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5006,
+                    "name": "Research_Pub2",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "bf09f2f5-4e82-4a35-85a7-09e667b9f2d8",
+                "x": 6.654328932550683,
+                "y": 426.7640687119284
+            },
+            {
+                "description": "VPCS device",
+                "id": 38,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "OldBuilding_PC2",
+                    "x": -22.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 3",
+                        "id": 465,
+                        "link_id": 43,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 5007,
+                    "name": "OldBuilding_PC2",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "type": "VPCSDevice",
+                "vm_id": "8dbd8aa7-e021-467d-a5d9-95e432d2e05f",
+                "x": -758.4999999999999,
+                "y": -53.50000000000001
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "90aefba1-455f-49af-a9d3-1a62cd89eaa0",
+                "id": 39,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW1",
+                    "x": 17.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to Router2 on port FastEthernet0/1",
+                        "id": 466,
+                        "link_id": 41,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to OldBuilding_PC1 on port Ethernet0",
+                        "id": 467,
+                        "link_id": 42,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to OldBuilding_PC2 on port Ethernet0",
+                        "id": 468,
+                        "link_id": 43,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 469,
+                        "name": "4",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 470,
+                        "name": "5",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 471,
+                        "name": "6",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 472,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 473,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "SW1"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": -565.4999999999999,
+                "y": -123.99999999999996
+            }
+        ],
+        "servers": [
+            {
+                "host": "127.0.0.1",
+                "id": 1,
+                "local": true,
+                "port": 3080,
+                "protocol": "http",
+                "vm": false
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "1.5.2"
+}

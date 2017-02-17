@@ -1,0 +1,22 @@
+Jan 01 22:25:27.506 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Jan 01 22:25:27.507 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58062.
+Jan 01 22:25:27.553 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 01 22:25:27.586 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/Daniela/Desktop/Mini_Project_FINAL/project-files/dynamips 
+Jan 01 22:25:27.586 GENERAL: working_dir=/Users/Daniela/Desktop/Mini_Project_FINAL/project-files/dynamips
+Jan 01 22:25:27.604 HYPERVISOR: exec_cmd: ethsw create EngeneeringVLAN 
+Jan 01 22:25:28.496 HYPERVISOR: exec_cmd: nio create_udp udp-8fd1737e-7a35-4cf8-aaaf-ae655dd3bf94 10021 127.0.0.1 10020 
+Jan 01 22:25:28.503 HYPERVISOR: exec_cmd: ethsw add_nio EngeneeringVLAN udp-8fd1737e-7a35-4cf8-aaaf-ae655dd3bf94 
+Jan 01 22:25:28.521 HYPERVISOR: exec_cmd: ethsw set_access_port EngeneeringVLAN udp-8fd1737e-7a35-4cf8-aaaf-ae655dd3bf94 1 
+Jan 01 22:25:28.533 HYPERVISOR: exec_cmd: nio create_udp udp-3724c408-20a3-40c2-af39-a3b6dc326d78 10023 127.0.0.1 10022 
+Jan 01 22:25:28.552 HYPERVISOR: exec_cmd: ethsw add_nio EngeneeringVLAN udp-3724c408-20a3-40c2-af39-a3b6dc326d78 
+Jan 01 22:25:28.568 HYPERVISOR: exec_cmd: ethsw set_access_port EngeneeringVLAN udp-3724c408-20a3-40c2-af39-a3b6dc326d78 1 
+Jan 01 22:25:28.782 HYPERVISOR: exec_cmd: nio create_udp udp-18bbffdd-1697-4d8c-89cc-12a1b86d5cce 10041 127.0.0.1 10040 
+Jan 01 22:25:28.789 HYPERVISOR: exec_cmd: ethsw add_nio EngeneeringVLAN udp-18bbffdd-1697-4d8c-89cc-12a1b86d5cce 
+Jan 01 22:25:28.813 HYPERVISOR: exec_cmd: ethsw set_access_port EngeneeringVLAN udp-18bbffdd-1697-4d8c-89cc-12a1b86d5cce 1 
+Jan 01 22:25:28.950 HYPERVISOR: exec_cmd: nio create_udp udp-05eedff4-efe3-46a5-92fe-c767c1458063 10055 127.0.0.1 10054 
+Jan 01 22:25:28.954 HYPERVISOR: exec_cmd: ethsw add_nio EngeneeringVLAN udp-05eedff4-efe3-46a5-92fe-c767c1458063 
+Jan 01 22:25:28.970 HYPERVISOR: exec_cmd: ethsw set_access_port EngeneeringVLAN udp-05eedff4-efe3-46a5-92fe-c767c1458063 1 
+Jan 02 00:53:29.772 HYPERVISOR: exec_cmd: ethsw delete EngeneeringVLAN 
+Jan 02 00:53:29.854 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 02 00:53:30.238 HYPERVISOR: Stopped.
+Jan 02 00:53:30.238 GENERAL: reset done.

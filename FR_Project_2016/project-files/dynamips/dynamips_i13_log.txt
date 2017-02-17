@@ -1,0 +1,28 @@
+Jan 02 15:13:04.800 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 02 15:13:04.801 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53266.
+Jan 02 15:13:05.155 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 02 15:13:05.211 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips 
+Jan 02 15:13:05.212 GENERAL: working_dir=C:\Users\Diogo Ferreira\Desktop\FR_Project_2016\project-files\dynamips
+Jan 02 15:13:05.299 HYPERVISOR: exec_cmd: ethsw create VideoConfVLAN 
+Jan 02 15:13:09.513 HYPERVISOR: exec_cmd: nio create_udp udp-04df7235-3cc9-4904-b1c6-1c9769a6b8d0 10059 127.0.0.1 10058 
+Jan 02 15:13:09.538 HYPERVISOR: exec_cmd: ethsw add_nio VideoConfVLAN udp-04df7235-3cc9-4904-b1c6-1c9769a6b8d0 
+Jan 02 15:13:09.583 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConfVLAN udp-04df7235-3cc9-4904-b1c6-1c9769a6b8d0 5 
+Jan 02 15:13:09.716 HYPERVISOR: exec_cmd: nio create_udp udp-c63f46ae-9f8f-4d81-a32c-847268370d14 10061 127.0.0.1 10060 
+Jan 02 15:13:09.772 HYPERVISOR: exec_cmd: ethsw add_nio VideoConfVLAN udp-c63f46ae-9f8f-4d81-a32c-847268370d14 
+Jan 02 15:13:09.822 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConfVLAN udp-c63f46ae-9f8f-4d81-a32c-847268370d14 5 
+Jan 02 15:13:09.876 HYPERVISOR: exec_cmd: nio create_udp udp-0be72ee4-8b96-4442-ba32-9e18635572c7 10063 127.0.0.1 10062 
+Jan 02 15:13:09.924 HYPERVISOR: exec_cmd: ethsw add_nio VideoConfVLAN udp-0be72ee4-8b96-4442-ba32-9e18635572c7 
+Jan 02 15:13:09.959 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConfVLAN udp-0be72ee4-8b96-4442-ba32-9e18635572c7 5 
+Jan 02 15:13:10.009 HYPERVISOR: exec_cmd: nio create_udp udp-439cd26d-e1ae-4e45-be3f-8840025d1b0f 10065 127.0.0.1 10064 
+Jan 02 15:13:10.039 HYPERVISOR: exec_cmd: ethsw add_nio VideoConfVLAN udp-439cd26d-e1ae-4e45-be3f-8840025d1b0f 
+Jan 02 15:13:10.091 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConfVLAN udp-439cd26d-e1ae-4e45-be3f-8840025d1b0f 5 
+Jan 02 15:13:10.147 HYPERVISOR: exec_cmd: nio create_udp udp-a8b31928-8d91-4aee-bfd4-9e56360e3482 10067 127.0.0.1 10066 
+Jan 02 15:13:10.189 HYPERVISOR: exec_cmd: ethsw add_nio VideoConfVLAN udp-a8b31928-8d91-4aee-bfd4-9e56360e3482 
+Jan 02 15:13:10.238 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConfVLAN udp-a8b31928-8d91-4aee-bfd4-9e56360e3482 5 
+Jan 02 15:13:10.300 HYPERVISOR: exec_cmd: nio create_udp udp-9e68321f-ef73-439d-bc06-aea85cc42e03 10069 127.0.0.1 10068 
+Jan 02 15:13:10.382 HYPERVISOR: exec_cmd: ethsw add_nio VideoConfVLAN udp-9e68321f-ef73-439d-bc06-aea85cc42e03 
+Jan 02 15:13:10.445 HYPERVISOR: exec_cmd: ethsw set_access_port VideoConfVLAN udp-9e68321f-ef73-439d-bc06-aea85cc42e03 5 
+Jan 02 15:13:23.692 HYPERVISOR: exec_cmd: ethsw delete VideoConfVLAN 
+Jan 02 15:13:23.894 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 02 15:13:24.201 HYPERVISOR: Stopped.
+Jan 02 15:13:24.201 GENERAL: reset done.
